@@ -28,7 +28,7 @@ Once installed, TNT arrows will function automatically when obtained in your Min
 ## Requirements
 
 - Minecraft Java Edition with datapack support
-- Minimum Minecraft version: As per the datapack specifications
+- Minimum Minecraft version: 1.21.4
 
 ## License
 
