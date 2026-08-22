@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Added an arrow that explodes upon impact.",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}
