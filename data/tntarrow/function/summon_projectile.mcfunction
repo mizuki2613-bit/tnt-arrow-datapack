@@ -2,7 +2,7 @@ summon minecraft:tnt ~ ~ ~ {Tags:[tntArrow.projectile],fuse:32767}
 
 data modify entity @n[tag=tntArrow.projectile] Motion set from entity @s Motion
 
-# Inverted the angle to align the TNT's rotation with the arrow's direction of movement.
+# Negate both rotation components so the TNT's local forward direction matches the arrow's trajectory.
 execute store result entity @n[tag=tntArrow.projectile] Rotation[0] float -1 run data get entity @s Rotation[0]
 execute store result entity @n[tag=tntArrow.projectile] Rotation[1] float -1 run data get entity @s Rotation[1]
 

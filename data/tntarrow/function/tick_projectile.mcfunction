@@ -5,7 +5,7 @@ execute positioned ^ ^ ^1 positioned ~ ~1.5 ~ unless block ~ ~ ~ #minecraft:repl
 execute positioned ^0.5 ^ ^1 positioned ~ ~1.5 ~ unless block ~ ~ ~ #minecraft:replaceable run return run function tntarrow:explosion
 execute positioned ^-0.5 ^ ^1 positioned ~ ~1.5 ~ unless block ~ ~ ~ #minecraft:replaceable run return run function tntarrow:explosion
 
-#middle 
+#middle
 execute positioned ^ ^ ^1 positioned ~ ~0.5 ~ unless block ~ ~ ~ #minecraft:replaceable run return run function tntarrow:explosion
 execute positioned ^0.5 ^ ^1 positioned ~ ~0.5 ~ unless block ~ ~ ~ #minecraft:replaceable run return run function tntarrow:explosion
 execute positioned ^-0.5 ^ ^1 positioned ~ ~0.5 ~ unless block ~ ~ ~ #minecraft:replaceable run return run function tntarrow:explosion

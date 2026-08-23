@@ -1,4 +1,4 @@
-# distance = x^2 + y^2 + z^2
+# distance = dx^2 + dy^2 + dz^2
 
 execute store result score @s tntArrow.dx run data get entity @s Pos[0]
 execute store result score @s tntArrow.dy run data get entity @s Pos[1]
