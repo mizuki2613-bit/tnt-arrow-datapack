@@ -1,43 +1,35 @@
 # TNT Arrow Datapack
 
-A Minecraft datapack that adds TNT arrows - projectiles that explode on impact.
-
-## Overview
-
-This datapack introduces a new weapon type to Minecraft: TNT arrows. When these special arrows hit a target or block, they explode with the force of a TNT block, creating an explosive effect.
+A Minecraft datapack that adds the **Blast Bow**, a custom bow that fires explosive arrows.
 
 ## Features
 
-- **TNT Arrows**: Custom arrows that explode on impact
-- **Easy Integration**: Simply add the datapack to your world
-- **Minecraft Datapack Format**: Fully compatible with standard Minecraft datapacks
+- **Blast Bow**: A custom bow that fires explosive arrows
+- **Surface Collision Detection**: Explosive arrows can detonate when they hit the ground, walls, or ceilings
+- **Distance-Based Power**: The farther an arrow travels, the stronger its explosion becomes
+- **Arrow Consumption**: Firing the Blast Bow consumes arrows instead of TNT
+
+## Crafting
+
+Combine a **Bow** and **TNT** to craft the **Blast Bow**.
+
+The recipe is shapeless and is automatically unlocked when you obtain a bow.
 
 ## Installation
 
-1. Download the datapack files
-2. Locate your Minecraft world folder
-3. Navigate to the `datapacks` directory
-4. Place the datapack folder inside
-5. Load the world (or use `/reload` if the world is already loaded)
-6. The datapack will automatically enable
-
-## Usage
-
-Once installed, TNT arrows will function automatically when obtained in your Minecraft world. See the features section for details on how TNT arrows work.
+1. Download the datapack
+2. Place the datapack folder or ZIP file into your world's `datapacks` directory
+3. Load the world, or run `/reload` if the world is already open
 
 ## Requirements
 
-- Minecraft Java Edition with datapack support
-- Minimum Minecraft version: 1.21.4
+- Minecraft Java Edition
+- Supported versions: **1.21.4 – 26.2**
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues or pull requests.
-
-## Support
-
-For questions or issues, please open a GitHub issue in this repository.
+Issues and pull requests are welcome.
