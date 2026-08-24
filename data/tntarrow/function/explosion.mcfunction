@@ -1,5 +1,4 @@
 # distance = x^2 + z^2
-
 execute store result score @s tntArrow.dx run data get entity @s Pos[0]
 execute store result score @s tntArrow.dz run data get entity @s Pos[2]
 
@@ -16,4 +15,5 @@ execute if score @s tntArrow.dis matches ..999 run scoreboard players set @s tnt
 
 summon minecraft:tnt_minecart ~ ~ ~ {Tags:[tntArrow.explosion],fuse:0}
 execute store result entity @n[tag=tntArrow.explosion] explosion_power float 0.0025 run scoreboard players get @s tntArrow.dis
-kill @s
+
+kill

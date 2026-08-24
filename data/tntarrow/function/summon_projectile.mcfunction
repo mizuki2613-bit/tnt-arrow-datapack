@@ -9,4 +9,4 @@ execute store result entity @n[tag=tntArrow.projectile] Rotation[1] float -1 run
 execute as @n[tag=tntArrow.projectile] store result score @s tntArrow.start_x run data get entity @s Pos[0]
 execute as @n[tag=tntArrow.projectile] store result score @s tntArrow.start_z run data get entity @s Pos[2]
 
-kill @s
+kill
