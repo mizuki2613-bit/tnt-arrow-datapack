@@ -19,8 +19,8 @@ The recipe is automatically unlocked when you obtain a bow.
 
 ## Installation
 
-1. Download the datapack
-2. Place the datapack folder or ZIP file into your world's `datapacks` directory
+1. Download the latest release from the [Releases](../../releases) page
+2. Place the downloaded ZIP file into your world's `datapacks` directory
 3. Load the world, or run `/reload` if the world is already open
 
 ## Requirements
