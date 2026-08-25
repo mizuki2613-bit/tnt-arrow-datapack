@@ -1,5 +1,7 @@
 # TNT Arrow Datapack
 
+<img src="pack.png">
+
 A Minecraft datapack that adds the **Blast Bow**, a custom bow that fires explosive arrows.
 
 ## Features
@@ -13,7 +15,7 @@ A Minecraft datapack that adds the **Blast Bow**, a custom bow that fires explos
 
 Combine a **Bow** and **TNT** to craft the **Blast Bow**.
 
-The recipe is shapeless and is automatically unlocked when you obtain a bow.
+The recipe is automatically unlocked when you obtain a bow.
 
 ## Installation
 
