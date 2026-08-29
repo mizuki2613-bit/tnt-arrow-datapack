@@ -35,7 +35,7 @@ The projectile continuously checks for collisions with nearby blocks. When it re
 
 ## Installation
 
-1. Download the datapack
+1. Download the latest release from the [Releases](../../releases) page
 2. Place the datapack ZIP file into your world's `datapacks` directory
 3. Load the world, or run `/reload` if the world is already open
 
