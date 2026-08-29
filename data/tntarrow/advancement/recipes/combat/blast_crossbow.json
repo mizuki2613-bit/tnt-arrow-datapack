@@ -1,0 +1,18 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_crossbow": {
+			"conditions": {
+				"items": [
+					{
+						"items": ["minecraft:crossbow"]
+					}
+				]
+			},
+			"trigger": "minecraft:inventory_changed"
+		}
+	},
+	"rewards": {
+		"recipes": ["tntarrow:blast_crossbow"]
+	}
+}
