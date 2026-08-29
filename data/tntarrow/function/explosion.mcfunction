@@ -1,19 +1,19 @@
 # distance = x^2 + z^2
-execute store result score @s tntArrow.dx run data get entity @s Pos[0]
-execute store result score @s tntArrow.dz run data get entity @s Pos[2]
+execute store result score @s tntarrow.dx run data get entity @s Pos[0]
+execute store result score @s tntarrow.dz run data get entity @s Pos[2]
 
-scoreboard players operation @s tntArrow.dx -= @s tntArrow.start_x
-scoreboard players operation @s tntArrow.dz -= @s tntArrow.start_z
+scoreboard players operation @s tntarrow.dx -= @s tntarrow.start_x
+scoreboard players operation @s tntarrow.dz -= @s tntarrow.start_z
 
-scoreboard players operation @s tntArrow.dx *= @s tntArrow.dx
-scoreboard players operation @s tntArrow.dz *= @s tntArrow.dz
+scoreboard players operation @s tntarrow.dx *= @s tntarrow.dx
+scoreboard players operation @s tntarrow.dz *= @s tntarrow.dz
 
-scoreboard players operation @s tntArrow.dis = @s tntArrow.dx
-scoreboard players operation @s tntArrow.dis += @s tntArrow.dz
+scoreboard players operation @s tntarrow.dis = @s tntarrow.dx
+scoreboard players operation @s tntarrow.dis += @s tntarrow.dz
 
-execute if score @s tntArrow.dis matches ..999 run scoreboard players set @s tntArrow.dis 999
+execute if score @s tntarrow.dis matches ..999 run scoreboard players set @s tntarrow.dis 999
 
-summon minecraft:tnt_minecart ~ ~ ~ {Tags:[tntArrow.explosion],fuse:0}
-execute store result entity @n[tag=tntArrow.explosion] explosion_power float 0.0025 run scoreboard players get @s tntArrow.dis
+summon minecraft:tnt_minecart ~ ~ ~ {Tags:[tntarrow.explosion],fuse:0}
+execute store result entity @n[tag=tntarrow.explosion] explosion_power float 0.004 run scoreboard players get @s tntarrow.dis
 
 kill
