@@ -42,7 +42,7 @@ The projectile continuously checks for collisions with nearby blocks. When it re
 ## Requirements
 
 - Minecraft Java Edition
-- Supported versions: **1.21.5 – 26.2**
+- Supported versions: **26.3**
 
 ## License
 
