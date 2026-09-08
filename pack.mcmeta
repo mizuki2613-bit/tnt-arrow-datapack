@@ -2,6 +2,6 @@
 	"pack": {
 		"description": "Adds a bow that fires explosive arrows.",
 		"min_format": 119,
-		"max_format": 120
+		"max_format": 121
 	}
 }
