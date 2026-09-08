@@ -17,7 +17,7 @@
 									"left": {
 										"type": "minecraft:score",
 										"target": { "type": "context", "target": "target_entity" },
-										"score": "tntarrow.dx"
+										"score": "tntarrow.current_x"
 									},
 									"right": {
 										"type": "minecraft:score",
@@ -37,7 +37,7 @@
 									"left": {
 										"type": "minecraft:score",
 										"target": { "type": "context", "target": "target_entity" },
-										"score": "tntarrow.dz"
+										"score": "tntarrow.current_z"
 									},
 									"right": {
 										"type": "minecraft:score",
