@@ -1,0 +1,57 @@
+{
+	"type": "minecraft:mul",
+	"inputs": [
+		{
+			"type": "minecraft:max",
+			"inputs": [
+				999.9,
+				{
+					"type": "minecraft:add",
+					"inputs": [
+						{
+							"type": "minecraft:pow",
+							"base": {
+								"type": "minecraft:from_int",
+								"input": {
+									"type": "minecraft:sub",
+									"left": {
+										"type": "minecraft:score",
+										"target": { "type": "context", "target": "target_entity" },
+										"score": "tntarrow.dx"
+									},
+									"right": {
+										"type": "minecraft:score",
+										"target": { "type": "context", "target": "target_entity" },
+										"score": "tntarrow.start_x"
+									}
+								}
+							},
+							"exponent": 2.0
+						},
+						{
+							"type": "minecraft:pow",
+							"base": {
+								"type": "minecraft:from_int",
+								"input": {
+									"type": "minecraft:sub",
+									"left": {
+										"type": "minecraft:score",
+										"target": { "type": "context", "target": "target_entity" },
+										"score": "tntarrow.dz"
+									},
+									"right": {
+										"type": "minecraft:score",
+										"target": { "type": "context", "target": "target_entity" },
+										"score": "tntarrow.start_z"
+									}
+								}
+							},
+							"exponent": 2.0
+						}
+					]
+				}
+			]
+		},
+		0.004
+	]
+}
